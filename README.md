@@ -1,7 +1,6 @@
 # LaraGigs app
 
-
-## Usage
+![Alt text](/public/images/screen.png "LaraGigs")
 
 ### Database Setup
 This app uses MySQL. To use something different, open up config/Database.php and change the default driver.
