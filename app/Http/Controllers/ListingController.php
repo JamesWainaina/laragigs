@@ -1,10 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
 
+namespace App\Http\Controllers;
 use App\Models\Listing;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
+use Ramsey\Uuid\Rfc4122\Fields;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Storage;
 
 class ListingController extends Controller
 {
